@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header_wrapper .navbar-brand {
+    font-family: 'Tahoma';
+    color: black;
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.header_wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header_wrapper .navbar-brand img {
+    max-width: 10rem;
+    height: auto;
+}
+
+.header_wrapper .navbar {
+    padding: 0.9375rem 0;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.navbar-nav li a {
+    margin: 0 0.625rem;
+    font-size: 0.9375;
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar-nav li a :active,
+.navbar-nav li a:hover {
+    color: red;
+}
+
+.me-2 {
+    margin: 10px;
+}
+
+.long-text {
+    text-align: left;
+}
+
+.skills {
+    margin: 20px;
+}
+
+.img-thumbnail {
+    width: 80%;
+}
